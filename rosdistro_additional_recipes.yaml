@@ -348,3 +348,34 @@ autoware_lanelet2_extension_python:
   tag: release/humble/autoware_lanelet2_extension_python/0.8.0-1
   url: https://github.com/ros2-gbp/autoware_lanelet2_extension-release.git
   version: 0.8.0
+# elevation_mapping_cupy
+elevation_map_msgs:
+  tag: v2.1.0
+  url: https://github.com/leggedrobotics/elevation_mapping_cupy.git
+  version: 2.1.0
+  additional_folder: elevation_map_msgs
+elevation_mapping_cupy:
+  tag: v2.1.0
+  url: https://github.com/leggedrobotics/elevation_mapping_cupy.git
+  version: 2.1.0
+  additional_folder: elevation_mapping_cupy
+convex_plane_decomposition:
+  tag: v2.1.0
+  url: https://github.com/leggedrobotics/elevation_mapping_cupy.git
+  version: 2.1.0
+  additional_folder: plane_segmentation/convex_plane_decomposition
+convex_plane_decomposition_msgs:
+  tag: v2.1.0
+  url: https://github.com/leggedrobotics/elevation_mapping_cupy.git
+  version: 2.1.0
+  additional_folder: plane_segmentation/convex_plane_decomposition_msgs
+convex_plane_decomposition_ros:
+  tag: v2.1.0
+  url: https://github.com/leggedrobotics/elevation_mapping_cupy.git
+  version: 2.1.0
+  additional_folder: plane_segmentation/convex_plane_decomposition_ros
+grid_map_filters_rsl:
+  tag: v2.1.0
+  url: https://github.com/leggedrobotics/elevation_mapping_cupy.git
+  version: 2.1.0
+  additional_folder: plane_segmentation/grid_map_filters_rsl

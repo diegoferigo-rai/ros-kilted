@@ -222,6 +222,13 @@ packages_select_by_deps:
       # most of the dep of grid_map work on Windows, but there are some rviz linking problems in octomap_rviz_plugins,
       # see https://github.com/RoboStack/ros-jazzy/pull/79#issuecomment-2993499990
       - grid_map
+      # elevation_mapping_cupy
+      - elevation_map_msg
+      - elevation_mapping_cupy
+      - convex_plane_decomposition
+      - convex_plane_decomposition_msgs
+      - convex_plane_decomposition_ros
+      - grid_map_filters_rsl
 
 patch_dir: patch
 rosdistro_snapshot: rosdistro_snapshot.yaml

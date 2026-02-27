@@ -267,3 +267,9 @@ console_bridge_vendor:
 grid_map_octomap:
   add_host: ["octomap"]
   add_run: ["octomap"]
+elevation_mapping_cupy:
+  add_run: ["cupy"]
+convex_plane_decomposition:
+  add_host: ["cgal-cpp"]
+convex_plane_decomposition_ros:
+  add_host: ["cgal-cpp"]
